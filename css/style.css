@@ -9711,15 +9711,14 @@ textarea.form-control {
 }
 .navbar a:focus, .active a{
   color: #89cf33 !important;
+  text-decoration: none;
   background-color: Rgb(207, 51, 136) !important; */
   background-position: center !important;
-font-weight: bold !important;
+  font-weight: bold !important;
 }
 
 .navbar a:hover{
   text-decoration: underline;
-  background-position: center !important;
-
 }
 
 #juggling-clown{
