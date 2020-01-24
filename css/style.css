@@ -3826,7 +3826,9 @@ input[type="button"].btn-block {
   padding: 1.25rem; }
 
 .card-title {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.75rem;
+  display: inline;
+}
 
 .card-subtitle {
   margin-top: -0.375rem;
@@ -8198,14 +8200,10 @@ h1, h2, h3, h4, h5,
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
-    .ftco-navbar-light.scrolled .navbar-brand {
-      color: #fff; }
 
-.navbar-brand {
-  font-weight: 900;
-  font-size: 24px;
-  padding: 0;
-  line-height: 1; }
+
+.navbar-brand img {
+  width: 60%; }
 
 .hero-wrap {
   width: 100%;
@@ -8904,7 +8902,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 3em 0;
   position: relative; }
 
 .ftco-no-pt {
