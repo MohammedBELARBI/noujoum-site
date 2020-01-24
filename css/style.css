@@ -9735,3 +9735,7 @@ textarea.form-control {
         color: #fff !important;
       }
 }
+svg {
+  width: 3em;
+  height: 3em;
+}
