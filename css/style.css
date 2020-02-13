@@ -4207,13 +4207,13 @@ input[type="button"].btn-block {
     background-color: #1d2124; }
 
 .jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
+  padding: .5rem 1rem;
+  margin-bottom: .5rem;
   background-color: #e9ecef;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
-      padding: 4rem 2rem; } }
+      padding: 3rem 1rem; } }
 
 .jumbotron-fluid {
   padding-right: 0;
@@ -9728,6 +9728,11 @@ textarea.form-control {
   height: 17em;
   margin-top: -3em;
 }
+  @media (max-width: 576px) {
+    #juggling-clown{
+      visibility: collapse;
+    }
+  }
 
 .
 @media (max-width: 767.98px) {
@@ -9742,4 +9747,8 @@ svg {
 
 #carouselControls img{
   height: 10em;
+}
+#btndon{
+  position: relative;
+  margin-left: 20%;
 }
